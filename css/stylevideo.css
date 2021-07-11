@@ -11,7 +11,7 @@ body{
 }
 .bgSection{
     position: absolute;
-    height: 150%;
+    height: 200%;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -54,4 +54,19 @@ body{
         padding-right: 15px;
 
     }
+}
+::-webkit-scrollbar {
+    position: absolute;
+    width: 8px;
+    top: 40px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: #AC73D7;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #863EBB;
 }

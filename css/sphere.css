@@ -1,5 +1,5 @@
 .sphere1{
-    position: absolute;
+    position: fixed;
     background: #863EBB;
     width: 150px;
     height: 150px;
@@ -9,7 +9,7 @@
     top: 40px;
 }
 .sphere2{
-    position: absolute;
+    position: fixed;
     background: #AC73D7;
     width: 150px;
     height: 150px;

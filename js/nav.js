@@ -4,6 +4,7 @@ const open = document.getElementById('open')
     text1 = document.getElementById('text1')
     text2 = document.getElementById('text2')
     bg = document.getElementById('bgSection')
+    videodiv = document.getElementById('videodiv')
     nav = document.querySelector('nav');
 
 open.addEventListener('click', () => {
@@ -31,4 +32,13 @@ bg.addEventListener('click', () => {
     navbarmobile.classList.remove('clicked');
     text1.classList.remove('invisible');
     text2.classList.remove('visible');    
+})
+
+videodiv.addEventListener('click', () => {
+    nav.classList.remove('active');
+    open.classList.remove('invisible');
+    close.classList.remove('visible');
+    navbarmobile.classList.remove('clicked');
+    text1.classList.remove('invisible');
+    text2.classList.remove('visible');
 })

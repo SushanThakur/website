@@ -28,9 +28,11 @@ nav{
 nav ul{
     display: block;
     text-align: center;
-    background: #00000090;
+    background: #000000de;
     animation: navBarAnimation 0.5s alternate;
     transform-origin: top;
+    border-top: 2px skyblue solid;
+    border-bottom: 2px skyblue solid;
 }
 nav ul a li{
     padding: 15px 0;
@@ -54,7 +56,7 @@ nav.active{
     background: #00000090;
 }
 .mobilenav.clicked{
-    background-color: #000000de;
+    background-color: rgba(0, 0, 0, 0.95);
 }
 .text1{
     position: absolute;
