@@ -117,20 +117,23 @@ nav.active{
     }
     .navbar{
         top: 0;
+        display: flex;
+        height: 40px;
+        background: #00000090;
+        padding: 0px;
     }
     nav{
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
     }
     .navbar nav ul{
         background: none;
     }
     .navbar nav ul a li{
         display: inline;
-        padding: 10px 20px 10px 20px;
-        background: #00000090;
+        padding: 10px 20px 2px 20px;
     }
     .navbar nav ul a li:hover{
         background: rgba(0, 0, 0, 0.274);
