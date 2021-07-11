@@ -132,6 +132,7 @@ nav.active{
     }
     .navbar nav ul{
         background: none;
+        border: none;
     }
     .navbar nav ul a li{
         display: inline;
